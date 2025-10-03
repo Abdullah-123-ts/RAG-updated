@@ -74,7 +74,7 @@ VECTOR_STORE_DIR = "vectorstores"
 os.makedirs(VECTOR_STORE_DIR, exist_ok=True)
 
 # SHEETS_ORDER = ["dafza.xlsx", "meydan.xlsx", "spc.xlsx", "isic.xlsx"]
-SHEETS_ORDER = ["all_activities_sheet.xlsx"]  # Single combined sheet for simplicity
+SHEETS_ORDER = ["consolidated_sheet.xlsx"]  # Single combined sheet for simplicity
 
 
 # ---------------- LOAD SHEETS ----------------
